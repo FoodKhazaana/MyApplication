@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:weightSum="100" android:gravity="center"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RadioButton
+        android:layout_weight="40"
+        android:id="@+id/radioBtnWeight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/product_weight" />
+
+    <EditText
+        android:layout_weight="50"
+        android:id="@+id/editTextPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/product_price"
+        android:inputType="numberDecimal" />
+</LinearLayout>

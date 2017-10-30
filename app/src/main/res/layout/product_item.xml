@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:padding="2dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:weightSum="3"
+        android:layout_alignParentTop="true" android:orientation="horizontal">
+
+    <ImageView android:layout_height="match_parent"
+        android:layout_width="@dimen/product_row_image_width"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:paddingRight="10dp"
+        android:contentDescription="desc" android:id="@+id/pic"/>
+        <!--<ImageView
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/product_row_image_width" android:layout_weight="0.30"
+            android:paddingRight="10dp" android:paddingLeft="10dp"
+            android:scaleType="fitXY"
+            android:contentDescription="desc" android:id="@+id/pic"/>-->
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:orientation="vertical" android:layout_weight="2"
+        android:background="@android:color/white">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="@dimen/product_row_text_width"
+        android:id="@+id/name" android:textSize="@dimen/product_row_text_size"
+        android:textStyle="bold" android:textColor="@color/colorPrimaryDark"
+        android:text="Product fdsaf fdsfsdf sfsfdsafdsffsafsadfgfds" android:paddingBottom="4dp"
+        android:layout_marginLeft="10dp" android:layout_marginTop="10dp"/>
+
+    <Spinner android:layout_height="wrap_content"
+        android:layout_width="@dimen/product_row_spinner_width" android:id="@+id/spinner"
+        style="@style/spinner_style" android:spinnerMode="dialog"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:id="@+id/price" android:textSize="@dimen/product_row_price_text_size"
+        android:text="20" android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/rupee_grey"
+        android:drawableStart="@drawable/rupee_grey"/>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

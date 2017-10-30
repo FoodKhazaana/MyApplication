@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="product_row_text_size">12sp</dimen>
+
+    <dimen name="product_row_text_width">150dp</dimen>
+
+    <dimen name="product_row_price_text_size">12.0sp</dimen>
+
+    <dimen name="product_row_image_width">60.0dp</dimen>
+
+    <dimen name="product_row_image_height">60.0dp</dimen>
+
+    <dimen name="product_row_spinner_width">100.0dp</dimen>
+
+    <dimen name="product_row_spinner_height">25.0dp</dimen>
+
+    <dimen name="product_row_btn_width">45dp</dimen>
+
+    <dimen name="product_row_btn_height">45dp</dimen>
+</resources>

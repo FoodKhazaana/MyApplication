@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:weightSum="100"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    >
+
+    <EditText
+        android:id="@+id/editTextWeightDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/editTextPercentage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:ems="10"
+        android:hint="Percentage"
+        android:inputType="numberDecimal" />
+    <Button
+        android:id="@+id/btnAddWeightfr"
+        android:text="Add"
+        android:layout_weight="30"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
